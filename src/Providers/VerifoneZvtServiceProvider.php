@@ -25,10 +25,12 @@ class VerifoneZvtServiceProvider extends ServiceProvider
 		//Register new PaymentMethods
 		foreach (VerifoneZvtHelper::$paymentMethods as $paymentKey => $paymentName)
 		{
-			$container->register(VerifoneZvtHelper::PLUGIN_NAME.'::'.$paymentKey,
-				VerifoneZvtPaymentMethod::class,
-				[]
-			);
+		    if(isset(VerifoneZvtHelper::$paymentMethodClasses[$paymentKey])){
+                $container->register(VerifoneZvtHelper::PLUGIN_KEY.'::'.$paymentKey,
+                    VerifoneZvtHelper::$paymentMethodClasses[$paymentKey],
+                    []
+                );
+            }
 		}
 	}
 }
