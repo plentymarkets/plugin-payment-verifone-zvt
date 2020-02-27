@@ -1,5 +1,11 @@
 # Release Notes für VerifoneZVT
 
+## v.1.0.1
+
+### Funktionen
+
+-  Neue Funktionalitäten für die Sichtbarkeit im Backend eingefügt
+
 ## v.1.0.0
 
 ### Funktionen
