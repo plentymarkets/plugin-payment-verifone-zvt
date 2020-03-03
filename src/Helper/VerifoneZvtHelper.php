@@ -6,6 +6,17 @@ namespace VerifoneZvt\Helper;
 
 
 use Plenty\Modules\Payment\Method\Contracts\PaymentMethodRepositoryContract;
+use VerifoneZvt\Methods\VerifoneZvtAmericanExpressPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtElectronicCashPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtGirogoPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtGiroPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtJcbPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtMaestroPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtMastercardPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtUnknownPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtVisaElectronPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtVisaPaymentMethod;
+use VerifoneZvt\Methods\VerifoneZvtVPayPaymentMethod;
 
 class VerifoneZvtHelper
 {
@@ -30,6 +41,20 @@ class VerifoneZvtHelper
 		'AMERICAN-EXPRESS' => 'VerifoneZvt American Express',
 		'JCB' => 'VerifoneZvt JCB'
 		];
+
+    public static $paymentMethodClasses = [
+        'UNKNOWN' => VerifoneZvtUnknownPaymentMethod::class,
+        'GIROCARD' => VerifoneZvtGiroPaymentMethod::class,
+        'ELECTRONIC-CASH' => VerifoneZvtElectronicCashPaymentMethod::class,
+        'MAESTRO' => VerifoneZvtMaestroPaymentMethod::class,
+        'VPAY' =>VerifoneZvtVPayPaymentMethod::class,
+        'GELDKARTE-GIROGO' => VerifoneZvtGirogoPaymentMethod::class,
+        'MASTERCARD' => VerifoneZvtMastercardPaymentMethod::class,
+        'VISA' => VerifoneZvtVisaPaymentMethod::class,
+        'VISA_ELECTRON' => VerifoneZvtVisaElectronPaymentMethod::class,
+        'AMERICAN-EXPRESS' => VerifoneZvtAmericanExpressPaymentMethod::class,
+        'JCB' => VerifoneZvtJcbPaymentMethod::class
+    ];
 		
 	public function __construct(PaymentMethodRepositoryContract $paymentMethodRepositoryContract)
 	{
