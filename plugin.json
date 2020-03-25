@@ -8,7 +8,7 @@
   "price"             : 0.00,
   "description"       : "Verifone Zvt plugin for plentymarkets",
   "shortDescription"  : {"de":"Mit dem Plugin VerifoneZVT verbinden Sie ZVT-fähige Karten-Terminals der Marke Verifone mit Ihrer plentymarkets POS Kassen-Hardware.","en":"The plugin VerifoneZVT connects ZVT card terminals by the manufacturer Verifone with plentymarkets POS."},
-  "categories"        : ["3519","3521"],
+  "categories"        : ["3519"],
   "keywords"          : ["Verifone", "zvt", "plentymarkets", "payment", "integration"],
   "author"            : "plentymarkets GmbH",
   "authorIcon"        : "icon_author_xs.png",
