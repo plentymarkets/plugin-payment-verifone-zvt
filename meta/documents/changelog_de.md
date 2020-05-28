@@ -1,10 +1,16 @@
 # Release Notes für VerifoneZVT
 
+## v.1.0.2
+
+### Geändert
+
+- Stichwortoptimierung für den Marketplace
+
 ## v.1.0.1
 
 ### Funktionen
 
--  Neue Funktionalitäten für die Sichtbarkeit im Backend eingefügt
+- Neue Funktionalitäten für die Sichtbarkeit im Backend eingefügt
 
 ## v.1.0.0
 
