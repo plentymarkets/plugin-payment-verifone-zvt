@@ -5,6 +5,7 @@
 ### Geändert
 
 - Stichwortoptimierung für den Marketplace
+- Anpassungen im User Guide
 
 ## v.1.0.1
 

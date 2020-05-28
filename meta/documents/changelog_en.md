@@ -5,6 +5,7 @@
 ### Changed
 
 - Keyword optimisation for the marketplace
+- User guide adjustments
 
 ## v.1.0.1
 
