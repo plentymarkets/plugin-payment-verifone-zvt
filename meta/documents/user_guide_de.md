@@ -89,7 +89,7 @@ Der Tagesabschluss heißt bei Verifone Kassenschnitt. Mit dem ZVT-Kassenschnitt 
 
 1. Tippe im POS-Menü auf **Tagesabschluss**. <br />
 → Der Soll-Kassenbestand wird eingeblendet.
-2. Prüfe den tatsächlichen Kassenbestand und geben Sie diesen Ist-Bestand ein.
+2. Prüfe den tatsächlichen Kassenbestand und gib diesen Ist-Bestand ein.
 3. Tippe bei **Gleichzeitig Tagesabschluss für Terminal erstellen?** auf **Ja**. <br />
 → Der plentyPOS Tagesabschluss wird in plentymarkets importiert und im Menü **Aufträge » Dokumentenarchiv** gespeichert. <br />
 → Die Kartenumsätze werden an den Netzbetreiber übertragen. <br />
