@@ -4,7 +4,7 @@
 
 ### Geändert
 
-- Stichwortoptimierung für den Marketplace
+- Suchwortoptimierung für den plentyMarketplace
 - Anpassungen im User Guide
 
 ## v.1.0.1

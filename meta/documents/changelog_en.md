@@ -4,7 +4,7 @@
 
 ### Changed
 
-- Keyword optimisation for the marketplace
+- Keyword optimisation for plentyMarketplace
 - User guide adjustments
 
 ## v.1.0.1
