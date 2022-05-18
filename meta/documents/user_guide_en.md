@@ -5,7 +5,7 @@ The Verifone ZVT plugin allows you to connect a stationary payment terminal with
 To use the Verifone device with plentyPOS, you need the following:
 
 * Verifone terminal with printer, operating mode **ZVT**, connection type **TCP/IP**, bock print **Ein** (**On**) <br />
-  <b><i>Tip:</i></b> Check the [plentymarkets manual](https://knowledge.plentymarkets.com/en/app/installation#400) to find the devices that plentymarkets tests this plugin on.
+  <b><i>Tip:</i></b> Check the [plentymarkets manual](https://knowledge.plentymarkets.com/en-gb/manual/main/app/installation.html#400) to find the devices that plentymarkets tests this plugin on.
 * Service contract with a payment provider
 * plentyPOS
 * Mobile device on which the plentymarkets app is installed
@@ -14,7 +14,7 @@ To use the Verifone device with plentyPOS, you need the following:
   To connect the terminal with plentyPOS, you need the <b>Terminal IP</b> and the <b>port</b> of the Verifone terminal. This information only can be accessed by entering the technical support password on the device. As such, let your payment provider know early on that you need this information to connect the device to your POS software.
 </div>
 
-Check the [plentymarkets manual](https://knowledge.plentymarkets.com/pos/integrating-plentymarkets-pos#) for further information on hardware requirements and setting up plenty POS.
+Check the [plentymarkets manual](https://knowledge.plentymarkets.com/en-gb/manual/main/pos/integrating-plentymarkets-pos.html#10) for further information on hardware requirements and setting up plenty POS.
 
 <div class="container-toc"></div>
 

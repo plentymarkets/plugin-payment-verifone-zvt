@@ -1,5 +1,11 @@
 # Release Notes for VerifoneZVT
 
+## v.1.0.3
+
+### Changed
+
+- User guide adjustments
+
 ## v.1.0.2
 
 ### Changed
