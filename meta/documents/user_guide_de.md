@@ -5,7 +5,7 @@ Mit dem Plugin Verifone ZVT verbindest du ein stationäres Terminal mit Drucker 
 Um das Verifone-Gerät mit plentyPOS nutzen zu können, benötigst du:
 
 * Verifone-Terminal mit Drucker, Betriebsart **ZVT**, Verbindungsart **TCP/IP**, Blockdruck **Ein** <br />
-    <b><i>Tipp:</i><b> Informationen zu den Geräten, die plentymarkets mit diesem Plugin getestet hat, findest du im [plentymarkets Handbuch](https://knowledge.plentymarkets.com/de-de/manual/main/app/installieren.html#400).
+    <b><i>Tipp:</i></b> Informationen zu den Geräten, die plentymarkets mit diesem Plugin getestet hat, findest du im [plentymarkets Handbuch](https://knowledge.plentymarkets.com/de-de/manual/main/app/installieren.html#400).
 * Service-Vertrag mit einem Payment Provider
 * plentyPOS Kasse
 * Mobiles Gerät, auf dem die plentymarkets App installiert ist
