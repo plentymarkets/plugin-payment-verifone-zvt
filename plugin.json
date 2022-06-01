@@ -1,18 +1,47 @@
 {
-  "name"              : "VerifoneZVT",
-  "namespace"         : "VerifoneZvt",
-  "type"              : "payment",
-  "version"           : "1.0.3",
-  "license"           : "AGPL-3.0",
-  "pluginIcon"        : "icon_plugin_xs.png",
-  "price"             : 0.00,
-  "description"       : "Verifone ZVT plugin for plentymarkets",
-  "shortDescription"  : {"de":"Mit dem Plugin VerifoneZVT verbindest du ZVT-fähige Kartenterminals der Marke Verifone mit deiner plentyPOS Kassen-Hardware.","en":"The plugin VerifoneZVT connects ZVT card terminals manufactured by Verifone with plentyPOS."},
-  "categories"        : ["3519"],
-  "keywords"          : ["Verifone", "zvt", "plentymarkets", "payment", "plentyPOS", "plenty", "POS", "Kasse", "Kassensystem", "point of sale", "Kartenzahlung", "card payment", "EC", "card reading device", "Kartenlesegerät", "V Pay", "Kartenterminal", "card terminal", "payment method", "Zahlungsart"],
-  "author"            : "plentysystems AG",
-  "authorIcon"        : "icon_author_xs.png",
-  "email"             : "sales@plentymarkets.com",
-  "phone"             : "+49 561 98 681 100",
-  "serviceProvider"   : "VerifoneZvt\\Providers\\VerifoneZvtServiceProvider"
+  "name": "VerifoneZVT",
+  "namespace": "VerifoneZvt",
+  "type": "payment",
+  "version": "1.0.3",
+  "platform": {
+    "php": ">=7.3 <8.1"
+  },
+  "license": "AGPL-3.0",
+  "pluginIcon": "icon_plugin_xs.png",
+  "price": 0.00,
+  "description": "Verifone ZVT plugin for plentymarkets",
+  "shortDescription": {
+    "de": "Mit dem Plugin VerifoneZVT verbindest du ZVT-fähige Kartenterminals der Marke Verifone mit deiner plentyPOS Kassen-Hardware.",
+    "en": "The plugin VerifoneZVT connects ZVT card terminals manufactured by Verifone with plentyPOS."
+  },
+  "categories": [
+    "3519"
+  ],
+  "keywords": [
+    "Verifone",
+    "zvt",
+    "plentymarkets",
+    "payment",
+    "plentyPOS",
+    "plenty",
+    "POS",
+    "Kasse",
+    "Kassensystem",
+    "point of sale",
+    "Kartenzahlung",
+    "card payment",
+    "EC",
+    "card reading device",
+    "Kartenlesegerät",
+    "V Pay",
+    "Kartenterminal",
+    "card terminal",
+    "payment method",
+    "Zahlungsart"
+  ],
+  "author": "plentysystems AG",
+  "authorIcon": "icon_author_xs.png",
+  "email": "sales@plentymarkets.com",
+  "phone": "+49 561 98 681 100",
+  "serviceProvider": "VerifoneZvt\\Providers\\VerifoneZvtServiceProvider"
 }
