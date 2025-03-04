@@ -1,26 +1,26 @@
 # User guide for the Verifone ZVT plugin
 
-The Verifone ZVT plugin allows you to connect a stationary payment terminal with printer by the device manufacturer Verifone with the POS software plentyPOS using the ZVT protocol.
+The Verifone ZVT plugin allows you to connect a stationary payment terminal with printer by the device manufacturer Verifone with the POS software for PlentyONE using the ZVT protocol.
 
-To use the Verifone device with plentyPOS, you need the following:
+To use the Verifone device with PlentyONE POS, you need the following:
 
 * Verifone terminal with printer, operating mode **ZVT**, connection type **TCP/IP**, bock print **Ein** (**On**) <br />
-  <b><i>Tip:</i></b> Check the [plentymarkets manual](https://knowledge.plentymarkets.com/en-gb/manual/main/app/installation.html#400) to find the devices that plentymarkets tests this plugin on.
+  <b><i>Tip:</i></b> Check the [PlentyONE manual](https://knowledge.plentymarkets.com/en-gb/manual/main/app/installation.html#400) to find the devices that PlentyONE tests this plugin on.
 * Service contract with a payment provider
-* plentyPOS
-* Mobile device on which the plentymarkets app is installed
+* PlentyONE POS
+* Mobile device on which the POS app is installed
 
 <div class="alert alert-warning" role="alert">
-  To connect the terminal with plentyPOS, you need the <b>Terminal IP</b> and the <b>port</b> of the Verifone terminal. This information only can be accessed by entering the technical support password on the device. As such, let your payment provider know early on that you need this information to connect the device to your POS software.
+  To connect the terminal with the PlentyONE POS, you need the <b>Terminal IP</b> and the <b>port</b> of the Verifone terminal. This information only can be accessed by entering the technical support password on the device. As such, let your payment provider know early on that you need this information to connect the device to your POS software.
 </div>
 
-Check the [plentymarkets manual](https://knowledge.plentymarkets.com/en-gb/manual/main/pos/integrating-plentymarkets-pos.html#10) for further information on hardware requirements and setting up plenty POS.
+Check the [PlentyONE manual](https://knowledge.plentymarkets.com/en-gb/manual/main/pos/integrating-plentymarkets-pos.html#10) for further information on hardware requirements and setting up plenty POS.
 
 <div class="container-toc"></div>
 
 ## Activating the payment method for a POS
 
-Once you have installed and provisioned the payment plugin, activate the payment method in the plentymarkets back end to make sure that POS orders are processed correctly.
+Once you have installed and provisioned the payment plugin, activate the payment method in the PlentyONE back end to make sure that POS orders are processed correctly.
 
 ##### Activating the payment method Verifone (ZVT) for a POS:
 
@@ -32,11 +32,11 @@ Once you have installed and provisioned the payment plugin, activate the payment
 
 ## Connecting the payment terminal with a POS
 
-The connection between the payment terminal and the POS is established in the plentymarkets app. You also need the terminal IP and the port of the payment terminal to establish the connection.
+The connection between the payment terminal and the POS is established in the POS app. You also need the terminal IP and the port of the payment terminal to establish the connection.
 
 ##### Connecting the payment terminal with a POS:
 
-1. Go to **plentymarkets App » Settings » POS**.
+1. Go to **POS App » Settings » POS**.
 2. Carry out the settings. Pay attention to the information given in table 1. <br />
   <b><i>Note:</i></b> To connect the same terminal to more than one POS,  you need to select the same settings for all these POS.
 3. **Save** the settings.
@@ -68,7 +68,7 @@ The connection between the payment terminal and the POS is established in the pl
 </tr>
 <tr>
 <td><b>Include POS receipt no. on merchant receipt</b></td>
-<td>Activate to print the plentyPOS receipt number on the seller receipt.<br />
+<td>Activate to print the POS receipt number on the seller receipt.<br />
 <b><i>Tip:</i></b> This setting is only available if the option <b>Print terminal receipts on terminal</b> is not activated.</td>
 </tr>
 <tr>
@@ -80,15 +80,15 @@ The connection between the payment terminal and the POS is established in the pl
 
 ## Creating a z report
 
-Z reports are called z totals on your Verifone device. A z total transmits all card revenues saved on the terminal to the payment provider (clearing). For further information on z totals, refer to the user guide of your Verifone device. Instead of creating separate z totals, you can also trigger the Verifone z total at the same time as you trigger the z report in plentyPOS. To do so, proceed as described below:
+Z reports are called z totals on your Verifone device. A z total transmits all card revenues saved on the terminal to the payment provider (clearing). For further information on z totals, refer to the user guide of your Verifone device. Instead of creating separate z totals, you can also trigger the Verifone z total at the same time as you trigger the z report in POS. To do so, proceed as described below:
 
-##### Creating both plentyPOS z report and payment terminal z report:
+##### Creating both POS z report and payment terminal z report:
 
 1. Tap on **Z report** in the POS menu. <br />
 → The expected amount of cash on hand is displayed.
 2. Count the actual cash on hand and enter this amount.
 3. Tap on **Yes** for **Also create z report for terminal?**. <br />
-→ The plentyPOS z report is imported to plentymarkets and saved in the **Orders » Document archive** menu. <br />
+→ The POS z report is imported to PlentyONE and saved in the **Orders » Document archive** menu. <br />
 → The card revenues are transmitted to the payment provider. <br />
 → The Z total for the terminal is printed. <br />
 → The terminal's revenue counter is reset to zero.
