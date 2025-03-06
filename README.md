@@ -6,7 +6,7 @@ This is the official **Verifone (ZVT)** plugin developed by plentysystems AG. It
 
 ## Plugin documentation
 
-- Learn how to create your [first plentymarkets plugin](https://developers.plentymarkets.com/tutorials/helloworld)
+- Learn how to create your [first PlentyONE plugin](https://developers.plentymarkets.com/tutorials/helloworld)
 - Installing a [template](https://developers.plentymarkets.com/tutorials/design)
 - Developing a [payment plugin](https://developers.plentymarkets.com/tutorials/payment)
 - Overview of PlentyONE [plugin interfaces](https://developers.plentymarkets.com/dev-doc/basics#guide-interface)
