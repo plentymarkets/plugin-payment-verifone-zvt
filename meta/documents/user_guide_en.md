@@ -24,7 +24,7 @@ Once you have installed and provisioned the payment plugin, activate the payment
 
 ##### Activating the payment method Verifone (ZVT) for a POS:
 
-1. Go to **Settings » Client (store) » Standard » POS » POS » Tab: Payment method**.
+1. Go to **Setup » POS » Client (store) » POS » Tab: Payment method**.
 2. For the option **Connectivity**, select the setting **Verifone (ZVT)**. <br />
   <b><i>Tip:</i></b> If the option **Verifone (ZVT)** is not shown, you need to provision the plugin to continue.
 3. **Save** the settings. <br /> 

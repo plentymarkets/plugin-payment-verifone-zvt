@@ -24,7 +24,7 @@ Nachdem du das Payment-Plugin installiert und bereitgestellt hast, aktiviere die
 
 ##### Zahlungsart Verifone (ZVT) für POS aktivieren:
 
-1. Öffne das Menü **Einstellungen » Mandant (Shop) » Standard » POS » Tab: Zahlungsart**.
+1. Öffne das Menü **Einrichtung » POS » Mandant (Shop) » POS » Tab: Zahlungsart**.
 2. Wähle für die Option **Anbindung** die Einstellung **Verifone (ZVT)**.<br />
     <b><i>Tipp:</i></b> Wenn die Option **Verifone (ZVT)** nicht verfügbar ist, wurde das Plugin noch nicht bereitgestellt.
 3. **Speichere** die Einstellungen.<br />
