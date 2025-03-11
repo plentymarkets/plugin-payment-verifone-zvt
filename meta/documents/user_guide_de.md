@@ -98,4 +98,4 @@ Der Tagesabschluss heißt bei Verifone Kassenschnitt. Mit dem ZVT-Kassenschnitt 
 
 ## Lizenz
 
-Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen findest du in der [LICENSE.md](https://github.com/plentymarkets/plugin-etsy/blob/master/LICENSE.md).
+Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen findest du in der [LICENSE.md](https://github.com/plentymarkets/plugin-payment-verifone-zvt/blob/master/LICENSE.md).

@@ -2,7 +2,7 @@
 
 # Verifone ZVT plugin for PlentyONE
 
-This is the official **Verifone (ZVT)** plugin developed by plentysystems AG. It integrates the payment method **Verifone (ZVT)** to use an Verifone payment terminal.
+This is the official **Verifone (ZVT)** plugin developed by PlentyONE GmbH. It integrates the payment method **Verifone (ZVT)** to use an Verifone payment terminal.
 
 ## Plugin documentation
 
