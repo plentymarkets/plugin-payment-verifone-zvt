@@ -1,30 +1,30 @@
 # User Guide für das Plugin Verifone ZVT
 
-Mit dem Plugin Verifone ZVT verbindest du ein stationäres Terminal mit Drucker des Geräteherstellers Verifone über das ZVT-Protokoll mit der Kassensoftware plentyPOS.
+Mit dem Plugin Verifone ZVT verbindest du ein stationäres Terminal mit Drucker des Geräteherstellers Verifone über das ZVT-Protokoll mit der POS Kassensoftware für PlentyONE.
 
-Um das Verifone-Gerät mit plentyPOS nutzen zu können, benötigst du:
+Um das Verifone-Gerät mit PlentyONE POS nutzen zu können, benötigst du:
 
 * Verifone-Terminal mit Drucker, Betriebsart **ZVT**, Verbindungsart **TCP/IP**, Blockdruck **Ein** <br />
-    <b><i>Tipp:</i></b> Informationen zu den Geräten, die plentymarkets mit diesem Plugin getestet hat, findest du im [plentymarkets Handbuch](https://knowledge.plentymarkets.com/de-de/manual/main/app/installieren.html#400).
+    <b><i>Tipp:</i></b> Informationen zu den Geräten, die PlentyONE mit diesem Plugin getestet hat, findest du im [PlentyONE Handbuch](https://knowledge.plentymarkets.com/de-de/manual/main/app/installieren.html#400).
 * Service-Vertrag mit einem Payment Provider
-* plentyPOS Kasse
-* Mobiles Gerät, auf dem die plentymarkets App installiert ist
+* PlentyONE Kasse
+* Mobiles Gerät, auf dem die POS App für PlentyONE installiert ist
 
 <div class="alert alert-warning" role="alert">
-    Um das Gerät mit plentyPOS zu verbinden, benötigst du die <b>Terminal-IP</b> und den <b>Port</b> des Verifone-Terminals. Diese Gerätedaten sind nur nach Eingabe des Techniker-/Service-Passworts auf dem Gerät zugänglich. Teile daher Ihrem Payment Provider rechtzeitig mit, dass du diese Daten benötigst, um das Terminal mit deiner Kassensoftware zu verbinden.
+    Um das Gerät mit der POS App zu verbinden, benötigst du die <b>Terminal-IP</b> und den <b>Port</b> des Verifone-Terminals. Diese Gerätedaten sind nur nach Eingabe des Techniker-/Service-Passworts auf dem Gerät zugänglich. Teile daher Ihrem Payment Provider rechtzeitig mit, dass du diese Daten benötigst, um das Terminal mit deiner Kassensoftware zu verbinden.
 </div>
 
-Weitere Informationen zur Einrichtung und den Hardware-Anforderungen von plentyPOS findest du im [plentymarkets Handbuch](https://knowledge.plentymarkets.com/de-de/manual/main/pos/pos-einrichten.html#10).
+Weitere Informationen zur Einrichtung und den Hardware-Anforderungen von PlentyONE POS findest du im [PlentyONE Handbuch](https://knowledge.plentymarkets.com/de-de/manual/main/pos/pos-einrichten.html#10).
 
 <div class="container-toc"></div>
 
 ## Zahlungsart für POS aktivieren
 
-Nachdem du das Payment-Plugin installiert und bereitgestellt hast, aktiviere die Zahlungsart im plentymarkets Backend, damit über das Verifone-Gerät eingehende POS-Aufträge korrekt abgewickelt werden.
+Nachdem du das Payment-Plugin installiert und bereitgestellt hast, aktiviere die Zahlungsart im PlentyONE Backend, damit über das Verifone-Gerät eingehende POS-Aufträge korrekt abgewickelt werden.
 
 ##### Zahlungsart Verifone (ZVT) für POS aktivieren:
 
-1. Öffne das Menü **Einstellungen » Mandant (Shop) » Standard » POS » Tab: Zahlungsart**.
+1. Öffne das Menü **Einrichtung » POS » Mandant (Shop) » POS » Tab: Zahlungsart**.
 2. Wähle für die Option **Anbindung** die Einstellung **Verifone (ZVT)**.<br />
     <b><i>Tipp:</i></b> Wenn die Option **Verifone (ZVT)** nicht verfügbar ist, wurde das Plugin noch nicht bereitgestellt.
 3. **Speichere** die Einstellungen.<br />
@@ -32,11 +32,11 @@ Nachdem du das Payment-Plugin installiert und bereitgestellt hast, aktiviere die
 
 ## Terminal mit der Kasse verbinden
 
-Die Verbindung zwischen Terminal und Kasse stellst du über die plentymarkets App her. Du benötigst die Terminal-IP und den Port des Terminals, um die Verbindung herzustellen.
+Die Verbindung zwischen Terminal und Kasse stellst du über die POS App her. Du benötigst die Terminal-IP und den Port des Terminals, um die Verbindung herzustellen.
 
 ##### Terminal mit der Kasse verbinden:
 
-1. Öffne das Menü **plentymarkets App » Einstellungen » POS**.
+1. Öffne das Menü **POS App » Einstellungen » POS**.
 2. Nimm die Einstellungen vor. Beachte Tabelle 1. <br />
     <b><i>Hinweis:</i></b> Wenn dasselbe Terminal an mehr als eine Kasse angebunden werden soll, müssen für alle Kassen dieselben Einstellungen getroffen werden.
 3. **Speichere** die Einstellungen.
@@ -71,7 +71,7 @@ Die Verbindung zwischen Terminal und Kasse stellst du über die plentymarkets Ap
 </tr>
 <tr>
 <td><b>Quittungsnr. auf Händlerbeleg ausgeben</b></td>
-<td>Aktivieren, um die plentymarkets Belegnummer des Auftrags auf dem Händlerbeleg darzustellen.<br />
+<td>Aktivieren, um die PlentyONE Belegnummer des Auftrags auf dem Händlerbeleg darzustellen.<br />
 <b><i>Tipp:</i></b> Diese Einstellung greift nur, wenn die Option <b>Terminal-Belege auf Terminal drucken</b> nicht aktiviert ist.</td>
 </tr>
 <tr>
@@ -83,19 +83,19 @@ Die Verbindung zwischen Terminal und Kasse stellst du über die plentymarkets Ap
 
 ## Tagesabschluss/Kassenschnitt durchführen
 
-Der Tagesabschluss heißt bei Verifone Kassenschnitt. Mit dem ZVT-Kassenschnitt werden alle im Terminal gespeicherten Kartenumsätze an den Netzbetreiber übertragen (Clearing). Weitere Informationen zum Terminal-Kassenschnitt findest du im Handbuch des Verifone-Geräts. Über plentyPOS kannst du den Verifone-Kassenschnitt auch gleichzeitig mit dem plentyPOS Tagesabschluss anstoßen. Gehe dazu wie folgt vor:
+Der Tagesabschluss heißt bei Verifone Kassenschnitt. Mit dem ZVT-Kassenschnitt werden alle im Terminal gespeicherten Kartenumsätze an den Netzbetreiber übertragen (Clearing). Weitere Informationen zum Terminal-Kassenschnitt findest du im Handbuch des Verifone-Geräts. Über PlentyONE POS kannst du den Verifone-Kassenschnitt auch gleichzeitig mit dem POS Tagesabschluss anstoßen. Gehe dazu wie folgt vor:
 
-##### plentyPOS Tagesabschluss und Verifone-Kassenschnitt gleichzeitig erstellen:
+##### POS Tagesabschluss und Verifone-Kassenschnitt gleichzeitig erstellen:
 
 1. Tippe im POS-Menü auf **Tagesabschluss**. <br />
 → Der Soll-Kassenbestand wird eingeblendet.
 2. Prüfe den tatsächlichen Kassenbestand und gib diesen Ist-Bestand ein.
 3. Tippe bei **Gleichzeitig Tagesabschluss für Terminal erstellen?** auf **Ja**. <br />
-→ Der plentyPOS Tagesabschluss wird in plentymarkets importiert und im Menü **Aufträge » Dokumentenarchiv** gespeichert. <br />
+→ Der POS Tagesabschluss wird in PlentyONE importiert und im Menü **Aufträge » Dokumentenarchiv** gespeichert. <br />
 → Die Kartenumsätze werden an den Netzbetreiber übertragen. <br />
 → Der Kassenschnittbeleg des Terminals wird gedruckt. <br />
 → Der Umsatzspeicher im Terminal wird auf Null gesetzt.
 
 ## Lizenz
 
-Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen findest du in der [LICENSE.md](https://github.com/plentymarkets/plugin-etsy/blob/master/LICENSE.md).
+Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen findest du in der [LICENSE.md](https://github.com/plentymarkets/plugin-payment-verifone-zvt/blob/master/LICENSE.md).
